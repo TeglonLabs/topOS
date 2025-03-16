@@ -11,7 +11,10 @@
     "topos-server": "node lib/homotopy-duckdb-mcp.js",
     "extract-direct": "node scripts/extract-direct.js",
     "export-topos": "node scripts/export-to-infinitytopos.js",
-    "reco-log": "node scripts/reco-operating-metasystem.js"
+    "reco-log": "node scripts/reco-operating-metasystem.js",
+    "topos-client": "node scripts/topos-client.js",
+    "trust-visualizer": "node scripts/trust-visualizer.js",
+    "topos-all": "concurrently \"npm run reco-log\" \"npm run topos-webgpu\" \"npm run trust-visualizer\""
   },
   "dependencies": {
     "@monaco-editor/react": "^4.7.0",
