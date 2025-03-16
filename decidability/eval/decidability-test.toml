@@ -1,0 +1,10 @@
+import = "template/eval.toml"
+name = "topos-decidability"
+prompt = "Implement a decidability proof for categorical transformations in topOS. Create a function that determines if a given transformation between worlds is decidable. The function should take as input a transformation description and output whether it is decidable. Use mathematical principles from category theory."
+check = "The implementation should define a clear decidability criterion based on category theory and demonstrate it with at least one example transformation between worlds. It should reference concepts like functors, natural transformations, and morphisms. The solution should correctly implement a decision procedure."
+max-tool-calls = 10
+expected-tools = [
+  "eval-py",
+  "eval-js",
+  "math"
+]
